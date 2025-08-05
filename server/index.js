@@ -19,7 +19,7 @@ const server = http.createServer(app);
 // Initialize socket.io server
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:8080",
+    origin: "https://majestic-quokka-133518.netlify.app",
     methods: ["GET", "POST"],
     credentials: true
   }
@@ -28,7 +28,7 @@ const io = new Server(server, {
 app.use(cookieParser());
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:8080',
+  origin: 'https://majestic-quokka-133518.netlify.app',
   credentials: true
 }));
 app.use(express.json());
