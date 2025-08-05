@@ -89,7 +89,7 @@ const MyQuizzes = () => {
               </CardDescription>
               <Button 
                 variant="glow" 
-                onClick={() => navigate('/create-quiz')}
+                onClick={() => navigate('/create')}
               >
                 Create Your First Quiz
               </Button>
