@@ -8,9 +8,9 @@ cd ../server && npm install
 
 # Set environment variables for the server (.env):
 # Example:
-# PORT=5000
-# MONGO_URI=your_mongodb_connection_string
-# JWT_SECRET=your_jwt_secret
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 
 # Run development servers in parallel or open two terminals:
 # For client (React):
