@@ -23,6 +23,7 @@ AI Quiz Generator (Quiz-Gen) is a full-stack application that allows users to cr
 This project strengthened my understanding of real-time communication, state management in React, and integrating external APIs in full-stack applications.
 
 ✨ Features
+
 🔹 AI-Powered Quiz Creation
 
 Generate quizzes automatically using the OpenAI API based on any topic, difficulty level, or number of questions.
@@ -56,6 +57,7 @@ JWT-based login/register flow can be added.
 Creators can view comprehensive quiz insights and performance data.
 
 📦 Installation & Setup
+
 1️⃣ Clone the repository
 git clone https://github.com/yourusername/ai-quiz-generator.git
 cd ai-quiz-generator
