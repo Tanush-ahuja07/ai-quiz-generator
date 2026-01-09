@@ -12,7 +12,7 @@ const generateQuizWithGemini = async (topic, numQuestions) => {
 ]`;
 
   const apiKey = process.env.GEMINI_API_KEY;
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
+  const url = `https://generativeai.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
   const body = {
     contents: [
       {
